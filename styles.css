@@ -1,0 +1,104 @@
+body{
+    background-color: #e9ecef;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    color: #808080;
+}
+h2 {
+    text-align: center;
+    font-family: Verdana, sans-serif; 
+    font-weight: bold; 
+}
+h3 {
+    text-align: left;
+    font-family: Arial, sans-serif; 
+    color: #0e0d0d;
+}
+
+p{
+    text-align: center;
+    color: #808080; 
+}
+
+
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+     "box2 box1 box3"
+     "box2 box4 box3";
+    grid-gap: 2vh;
+    align-items: center;
+    margin: 5vh auto;
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40vh;
+}
+
+.box1 {
+    font-family: 'Times New Roman', Times, serif;
+    grid-area: box1;
+    background-color: #ffffff;;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--shadow);
+    height: 70%;
+    margin: 10%;
+}
+.box2{
+    font-family:  'Georgia', serif;
+    grid-area:box2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #62dada;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--shadow);
+    height: 70%;
+    margin: 10%;
+}
+
+.box3{
+    font-family: 'Impact', sans-serif;
+    grid-area:box4;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #d5fc4a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--shadow);
+    height: 70%;
+    margin: 10%;
+    
+}
+.box4{
+    font-family: 'Tahoma', sans-serif;
+    grid-area:box3;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #4a9dfc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--shadow);
+    height: 70%;
+    margin: 10%;
+  
+}
+
+
+
+
+
+
+
+
